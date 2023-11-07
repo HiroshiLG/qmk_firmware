@@ -15,9 +15,9 @@ for more options..
 
 // Keyboard matrix print
 // wiring of each half
-//#define SPLIT_USB_DETECT
-//#define EE_HANDS
-#define MASTER_RIGHT
+#define SPLIT_USB_DETECT
+#define EE_HANDS
+//#define MASTER_RIGHT
 
 // Tapdancing
 //#define TAPPING_TERM 200
