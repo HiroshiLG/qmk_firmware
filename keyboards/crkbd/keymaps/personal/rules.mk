@@ -1,7 +1,7 @@
 OLED_ENABLE            = yes
 #OLED_DRIVER            = SSD1306
-RGBLIGHT_ENABLE        = no    # Enable WS2812 RGB underlight.
-RGB_MATRIX_ENABLE      = yes
+RGBLIGHT_ENABLE        = yes    # Enable WS2812 RGB underlight.
+RGB_MATRIX_ENABLE      = no
 BACKLIGHT_ENABLE       = no
 SLEEP_LED_ENABLE       = yes
 CONSOLE_ENABLE         = no

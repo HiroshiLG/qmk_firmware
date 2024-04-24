@@ -1,12 +1,12 @@
-/*#ifdef RGBLIGHT_ENABLE
+#ifdef RGBLIGHT_ENABLE
 
 // Defining lighting layers
 const rgblight_segment_t PROGMEM my_layer0_layer[] = RGBLIGHT_LAYER_SEGMENTS(
-    {0,  54, HSV_BLUE} // Light LEDs 0 to 5 blue when layer0 is active. _COLEMAK
+    {0,  42, HSV_BLUE} // Light LEDs 0 to 5 blue when layer0 is active. _COLEMAK
  //   ,{27, 6, HSV_BLUE} // Light LEDs 27 to 32 blue when layer0 is active. _COLEMAK
 );
 const rgblight_segment_t PROGMEM my_layer1_layer[] = RGBLIGHT_LAYER_SEGMENTS(
-    {0,  54, HSV_RED} // Light LEDs 0 to 6 red when layer2 is active. _LOWER
+    {0,  42, HSV_RED} // Light LEDs 0 to 6 red when layer2 is active. _LOWER
  //   ,{27, 6, HSV_RED} // Light LEDs 27 to 32 blue when layer0 is active. _COLEMAK
 );
 const rgblight_segment_t PROGMEM my_layer2_layer[] = RGBLIGHT_LAYER_SEGMENTS(
@@ -14,7 +14,7 @@ const rgblight_segment_t PROGMEM my_layer2_layer[] = RGBLIGHT_LAYER_SEGMENTS(
  //   ,{27, 6, HSV_GOLD} // Light LEDs 27 to 32 blue when layer0 is active. _COLEMAK
 );
 const rgblight_segment_t PROGMEM my_layer3_layer[] = RGBLIGHT_LAYER_SEGMENTS(
-    {0,  54, HSV_MAGENTA} // Light LEDs 0 to 6 magenta when layer4 is active. _ADJUST
+    {0,  42, HSV_MAGENTA} // Light LEDs 0 to 6 magenta when layer4 is active. _ADJUST
 //    ,{27, 6, HSV_MAGENTA} // Light LEDs 27 to 32 blue when layer0 is active. _COLEMAK
 );
 
@@ -50,7 +50,7 @@ void matrix_init_user(void) {
      rgblight_enable();
      rgblight_setrgb(RGB_BLUE);
      rgblight_mode(RGBLIGHT_MODE_BREATHING);
-     rgblight_set_effect_range(0, 54);
+     rgblight_set_effect_range(0, 42);
 }
 
 // Changing colors after the flag has been flipped...
@@ -75,4 +75,4 @@ void matrix_scan_user(void) {
 
 }
 
-#endif*/
+#endif

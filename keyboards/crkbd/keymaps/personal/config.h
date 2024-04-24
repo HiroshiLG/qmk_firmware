@@ -15,9 +15,9 @@ for more options..
 
 // Keyboard matrix print
 // wiring of each half
-//#define SPLIT_USB_DETECT
-//#define EE_HANDS
-#define MASTER_RIGHT // Keep this last 5 lines and flash only the right side for future changes
+#define SPLIT_USB_DETECT
+#define EE_HANDS
+//#define MASTER_RIGHT // Keep this last 5 lines and flash only the right side for future changes
 
 // Tapdancing
 //#define TAPPING_TERM 200
@@ -33,7 +33,7 @@ for more options..
 //#define ONESHOT_TAP_TOGGLE 1
 //#define ONESHOT_TIMEOUT 5000
 
-/*#ifdef RGBLIGHT_ENABLE
+#ifdef RGBLIGHT_ENABLE
     #define RGBLIGHT_LIMIT_VAL 160 //Power draw may exceed 0.6A at max brightness with white colour.
     #define RGBLIGHT_LAYERS
     #define SPLIT_LED_STATE_ENABLE
@@ -41,23 +41,11 @@ for more options..
     #define RGBLIGHT_MAX_LAYERS 5
     #define RGBLIGHT_SLEEP
     #define RGBLIGHT_EFFECT_BREATHING
-
-    #undef  RGBLIGHT_ANIMATIONS
-    #define RGBLIGHT_EFFECT_BREATHING
-    #define RGBLIGHT_EFFECT_RAINBOW_MOOD
-    #define RGBLIGHT_EFFECT_RAINBOW_SWIRL
-    #define RGBLIGHT_EFFECT_SNAKE
-    #define RGBLIGHT_EFFECT_STATIC_GRADIENT
-    #define RGBLIGHT_EFFECT_RGB_TEST
-    #define RGBLIGHT_EFFECT_ALTERNATING
-    #define RGBLIGHT_EFFECT_TWINKLE
-
-
-    #define RGBLED_NUM 54 // Number of LEDs
+    #define RGBLED_NUM 42 // Number of LEDs
     #define RGBLIGHT_SPLIT
-    #define RGBLED_SPLIT { 27, 27 }
+    #define RGBLED_SPLIT { 21, 21 }
 #endif
-*/
+
 
 #ifdef RGB_MATRIX_ENABLE
 #    define RGB_MATRIX_KEYPRESSES
