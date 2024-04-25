@@ -40,7 +40,8 @@ for more options.
 //#define TWISTED_LAYOUT // Comment for using left usb
 
 // Tapdancing
-//#define TAPPING_TERM 200
+#undef TAPPING_TERM
+#define TAPPING_TERM 200
 
 // Disable leds animations
 #ifdef RGB_MATRIX_ENABLE

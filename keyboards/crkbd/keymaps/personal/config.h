@@ -34,6 +34,7 @@ for more options..
 //#define ONESHOT_TIMEOUT 5000
 
 #ifdef RGBLIGHT_ENABLE
+    #define RGBLIGHT_SPLIT
     #define RGBLIGHT_LIMIT_VAL 160 //Power draw may exceed 0.6A at max brightness with white colour.
     #define RGBLIGHT_LAYERS
     #define SPLIT_LED_STATE_ENABLE
@@ -41,9 +42,10 @@ for more options..
     #define RGBLIGHT_MAX_LAYERS 5
     #define RGBLIGHT_SLEEP
     #define RGBLIGHT_EFFECT_BREATHING
-    #define RGBLED_NUM 42 // Number of LEDs
-    #define RGBLIGHT_SPLIT
-    #define RGBLED_SPLIT { 21, 21 }
+    #define RGPLIGHT_EFFECT_BREATHE_MAX 160
+    #define RGBLED_NUM 54 // Number of LEDs
+    #define RGBLED_SPLIT { 27, 27 }
+    //#define RGB_DI_PIN D13
 #endif
 
 
