@@ -25,6 +25,7 @@ for more options.
 #define RGBLED_NUM 12
 #define RGBLED_SPLIT {6,6}
 #define RGB_DI_PIN D3
+#define WS2812_DI_PIN D3
 
 //Encoder
 #define ENCODER_RESOLUTIONS       { 4 }
