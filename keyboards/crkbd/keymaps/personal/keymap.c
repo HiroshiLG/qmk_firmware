@@ -37,7 +37,7 @@ enum custom_keycodes {
 
 #include "layout.h"
 #include "oled.h"
-#include "rgb.h"
+//#include "rgb.h"
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {

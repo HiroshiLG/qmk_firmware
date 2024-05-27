@@ -15,9 +15,9 @@ for more options..
 
 // Keyboard matrix print
 // wiring of each half
-#define SPLIT_USB_DETECT
-#define EE_HANDS
-//#define MASTER_RIGHT // Keep this last 5 lines and flash only the right side for future changes
+//#define SPLIT_USB_DETECT
+//#define EE_HANDS
+#define MASTER_RIGHT // Keep this last 5 lines and flash only the right side for future changes
 
 // Tapdancing
 //#define TAPPING_TERM 200
