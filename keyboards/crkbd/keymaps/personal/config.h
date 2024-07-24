@@ -48,7 +48,7 @@ for more options..
     //#define RGB_DI_PIN D13
 #endif
 
-
+// No funciona, ni idea porque, se apagan las luces, solo prende un lado, etc
 #ifdef RGB_MATRIX_ENABLE
 #    define RGB_MATRIX_KEYPRESSES
 #    define RGB_DISABLE_WHEN_USB_SUSPENDED // turn off effects when suspended
